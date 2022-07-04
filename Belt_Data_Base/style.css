@@ -1,0 +1,255 @@
+body{
+    background-color: orangered;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding:  15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+/* #nav */
+
+.nav {
+    background-color: orangered;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+.text {
+    float: left;
+    color: ivory;
+}
+
+.icon {
+    background-color: ivory; 
+}
+
+.icon img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    
+}
+
+.add-athlete {
+    float: right;
+}
+
+/* #End of nav */
+
+/* #Main */
+
+.lander-page-div {
+    padding: 5px;
+    background-color: lawngreen;
+    height: 370px;
+    background-color: black;
+    background-image: url("/img/home.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center right;
+    background-size: 720px 450px;
+}
+
+.lander-page-div header, p {
+    padding: 10px 30px;
+    text-align: left;
+    color: white;
+}
+
+
+.get-athlete input[type=text] {
+    width: 40%;
+    padding: 6px 20px;
+    margin: 2px 0;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* #End Main */
+
+/* DATA */
+
+.data-div {
+    display: grid;
+    grid-template-areas:
+        'data foto';
+    grid-gap: 10px;
+    padding: 5px;
+    background-color: white;
+    height: 370px;
+}
+
+.foto {
+    width: fit-content;
+}
+
+.foto img {
+    height: 120px;
+    width: 150px;
+}
+
+.data {
+    width: 200px;
+    height: 350px;
+    border: magenta;
+    background-color: #ccc;
+}
+
+.data-text {
+    text-align: left;
+}
+
+.edit input[type=submit] {
+    width: 25%;
+    background-color: rgb(14, 13, 13);
+    color: gray;
+    padding: 12px 10px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+.edit {
+    display: flex;
+    flex-direction:row;
+}
+.edit input[type=number], select {
+    width: 96%;
+    padding: 14px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.promote button {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid rgb(236, 12, 12);
+    background-color: rgb(231, 17, 17);
+    color: seashell;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+/* END OF DATA */
+
+/* #Botton */
+.cta-container {
+    background-color: lightsalmon;
+    height: 70px;
+}
+
+.addaform {
+    float: left;
+}
+
+.addaform label {
+    float: left;
+    color: white;
+}
+
+.get-athlete button {
+    width: 40%;
+    padding: 6px 20px;
+    margin: 2px 0;
+    
+    border: 1px solid rgb(231, 17, 17);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    
+    background-color: rgb(231, 17, 17);
+    color: white;
+    
+   
+    
+    cursor: pointer;
+}
+
+/* #End Botton */
+
+/* DIV ADD*/
+.divadd {
+    height: 450px;
+    background-color: black;
+    background-image: url("/img/index.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center right;
+    background-size: 720px 450px;
+}
+
+.divadd p{
+    color: white;
+    text-align: center;
+}
+/* #END OF DIV ADD*/

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        dapp example
+    </title>
+    <script src="./node_modules/web3/dist/web3.min.js">
+    </script>
+    <script>
+      var web3 = new Web3(new Web3.providers.HttpProvider('https://rinkeby.infura.io/'));
+      web3.eth.getTransaction('0xd540f813d46953f5bf7c0b3797572ff6b73eee0eeadfac071baee0da9a7a9b5a').then(console.log);
+    </script>
+</head>
+<body></body>
+</html>

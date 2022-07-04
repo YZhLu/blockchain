@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BeltDB</title>
+        <link rel="stylesheet" href="style.css">
+        <script language="javascript" type="text/javascript" src="beltdb_abi.js"></script>
+        
+    </head>
+    <body>
+        <div id="app" class="app">
+            <div class="app-container">
+                <div>
+                    <div class="nav">
+                        <div class="nav-container">
+                            <div class="logo">
+                                <a href="/beltdb.html" class="icon">
+                                    <img src="/img/icon.png">
+                                </a>
+                                <a href="/beltdb.html">
+                                    <div class="text">
+                                        BeltDB
+                                    </div>
+                                </a>
+                                <div class="add-athlete">
+                                    <a href="/add.html">
+                                        <div class="text">add Athlete</div>
+                                        <img src="/img/2x/baseline_person_add_white_18dp.png">
+                                    </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="lander page">
+                    <h1>
+
+                    </h1>
+                    <h1>
+
+                    </h1>
+                    <div class="divadd">
+                        
+                        <p>
+                            Fill the form with the Athlete Data
+                        </P>
+                        
+                        <br>
+                        <form class="addaform">
+                            <label for="name">Name:</label>
+                            <input type="text" name="txtName" id="txtName"><br>
+                            <label for="bday">Birthday:</label>
+                            <input type="date" name="bday" id="bay"><br>
+                            <label for="tday">First Traning Date:</label>
+                            <input type="date" name="tday" id="tday"><br><br>
+                            <input type="submit" value="Add Athlete" onclick="addAthlete()">
+                        </form>
+                        <div id="res">
+                            
+                        </div>
+                        
+                    </div>
+                    <!--
+
+                    
+                    <div class="cta-container">
+                        <form class="email-input">
+                            <input type="text" placeholder="Enter an id or address..." required="required" name="email" data-vv-validate-on="none" autocomplete="off" class="email" aria-required="true" aria-invalid="false">
+                            <button class="cta dark">
+                                Check the athlete belt
+                            </button>
+                        </form>
+                        <p class="disclaimer">
+                            Fast! Like baseball choke!
+                        </p>
+                    </div>
+                    -->
+                </div>
+                <!--
+                <footer class="footer">
+                    <div class="copyright">
+                        <p class="disclaimer">
+                        <i>BeltDB - Fast like baseball choke!</i>
+                        </p>
+                    </div>
+                </footer>
+                -->
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

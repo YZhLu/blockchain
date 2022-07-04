@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BeltDB</title>
+        <link rel="stylesheet" href="style.css">
+        <script language="javascript" type="text/javascript" src="web3.min.js"></script>
+    </head>
+    <body>
+        <div id="app" class="app">
+            <div class="app-container">
+                <div>
+                    <div class="nav">
+                        <div class="nav-container">
+                            <div class="logo">
+                                <a href="/beltdb.html" class="icon">
+                                    <img src="/img/icon.png">
+                                </a>
+                                <a href="/beltdb.html">
+                                    <div class="text">
+                                        BeltDB
+                                    </div>
+                                </a>
+                                <div class="add-athlete">
+                                    <a href="/add.html">
+                                        <div class="text">add Athlete</div>
+                                        <img src="/img/2x/baseline_person_add_white_18dp.png">
+                                    </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="lander-page">
+                    <h1>
+                    </h1>
+                    <div class="lander-page-div"> 
+                        <br>   
+                        <header>
+                            All the belt ranks wrinten in stone forever!
+                        </header>
+                        <p class="slogan">
+                                Check the athletes worldwide using blockchain technology.
+                        </p>
+                        
+                        <div id="msg">
+                                
+                        </div>   
+                    </div>
+                    <div class="cta-container">
+                        <form class="get-athlete">
+                            <input id="athleteId" type="text" placeholder="Enter an id or address..." required="required" name="email" data-vv-validate-on="none" autocomplete="off" class="email" aria-required="true" aria-invalid="false">
+                            <br>
+                            <a href="/aview.html">
+                            <button class="cta-dark" onclick="getAthlete()">
+                                Check the belt!
+                            </button>
+                            </a>
+                        </form>
+                    </div>
+                <footer class="footer">
+                    
+                </footer>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
